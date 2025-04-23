@@ -37,7 +37,7 @@ const MainNavigation = props => {
           <span />
         </button>
         <h1 className="main-navigation__title">
-          <Link to="/">Rocking - Upender Vuppalanchi says YourPlaces This is one of the greated code ever written</Link>
+          <Link to="/">Upender Vuppalanchi & Freinds say -  Its awsome YourPlaces</Link>
         </h1>
         <nav className="main-navigation__header-nav">
           <NavLinks />
