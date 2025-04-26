@@ -17,6 +17,7 @@ import { useAuth } from './shared/hooks/auth-hook';
 import LoadingSpinner from './shared/components/UIElements/LoadingSpinner';
 
 const Users = React.lazy(() => import('./user/pages/Users'));
+const Contactus = React.lazy(() => import('./contactus/pages/Contacts'));
 const NewPlace = React.lazy(() => import('./places/pages/NewPlace'));
 const UserPlaces = React.lazy(() => import('./places/pages/UserPlaces'));
 const UpdatePlace = React.lazy(() => import('./places/pages/UpdatePlace'));
@@ -50,6 +51,9 @@ const App = () => {
       <Switch>
         <Route path='/' exact>
           <Users />
+        </Route>
+        <Route path='/contactus' exact>
+          <Contactus />
         </Route>
         <Route path='/:userId/places' exact>
           <UserPlaces />
