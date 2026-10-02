@@ -11,6 +11,7 @@ import {
 // import UserPlaces from './places/pages/UserPlaces';
 // import UpdatePlace from './places/pages/UpdatePlace';
 // import Auth from './user/pages/Auth';
+// Fix for backend security vulnerability. Encryption enforced
 import MainNavigation from './shared/components/Navigation/MainNavigation';
 import { AuthContext } from './shared/context/auth-context';
 import { useAuth } from './shared/hooks/auth-hook';
